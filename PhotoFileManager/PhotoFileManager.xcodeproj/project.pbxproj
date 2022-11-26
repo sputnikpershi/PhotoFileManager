@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		14103462292B5F8C0081FB25 /* TextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14103461292B5F8C0081FB25 /* TextPicker.swift */; };
 		14103464292B6D660081FB25 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14103463292B6D660081FB25 /* ImagePicker.swift */; };
+		1410346C292F479A0081FB25 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410346B292F479A0081FB25 /* AppCoordinator.swift */; };
+		1410346E292F47AF0081FB25 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410346D292F47AF0081FB25 /* Coordinator.swift */; };
+		14103470292F48600081FB25 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410346F292F48600081FB25 /* MainCoordinator.swift */; };
+		14103472292F49660081FB25 /* FileManagerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14103471292F49660081FB25 /* FileManagerCoordinator.swift */; };
+		14103474292F4A460081FB25 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14103473292F4A460081FB25 /* LoginCoordinator.swift */; };
+		1410347A292F671F0081FB25 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14103479292F671F0081FB25 /* SettingsViewController.swift */; };
+		1410347C292F674E0081FB25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1410347B292F674E0081FB25 /* LoginViewController.swift */; };
+		14103482292F68920081FB25 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 14103481292F68920081FB25 /* KeychainAccess */; };
 		14E8FBFE292894A5004487D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8FBFD292894A5004487D0 /* AppDelegate.swift */; };
 		14E8FC00292894A5004487D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8FBFF292894A5004487D0 /* SceneDelegate.swift */; };
 		14E8FC02292894A5004487D0 /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8FC01292894A5004487D0 /* FileController.swift */; };
@@ -16,11 +24,23 @@
 		14E8FC0A292894A6004487D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E8FC08292894A6004487D0 /* LaunchScreen.storyboard */; };
 		14E8FC122928953D004487D0 /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8FC112928953D004487D0 /* FileManagerService.swift */; };
 		14E8FC15292B2DD2004487D0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14E8FC14292B2DD2004487D0 /* SnapKit */; };
+		14FD542A29306DB200438CDB /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD542929306DB200438CDB /* KeychainService.swift */; };
+		14FD542C2930BA0300438CDB /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD542B2930BA0300438CDB /* SettingsCoordinator.swift */; };
+		14FD542E293106F600438CDB /* SortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD542D293106F600438CDB /* SortTableViewCell.swift */; };
+		14FD54302931070A00438CDB /* SizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD542F2931070A00438CDB /* SizeTableViewCell.swift */; };
+		14FD54322932167C00438CDB /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FD54312932167C00438CDB /* ChangePasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14103461292B5F8C0081FB25 /* TextPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPicker.swift; sourceTree = "<group>"; };
 		14103463292B6D660081FB25 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1410346B292F479A0081FB25 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1410346D292F47AF0081FB25 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1410346F292F48600081FB25 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		14103471292F49660081FB25 /* FileManagerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerCoordinator.swift; sourceTree = "<group>"; };
+		14103473292F4A460081FB25 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		14103479292F671F0081FB25 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1410347B292F674E0081FB25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		14E8FBFA292894A5004487D0 /* PhotoFileManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFileManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E8FBFD292894A5004487D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14E8FBFF292894A5004487D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +49,11 @@
 		14E8FC09292894A6004487D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E8FC0B292894A6004487D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14E8FC112928953D004487D0 /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		14FD542929306DB200438CDB /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		14FD542B2930BA0300438CDB /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		14FD542D293106F600438CDB /* SortTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableViewCell.swift; sourceTree = "<group>"; };
+		14FD542F2931070A00438CDB /* SizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeTableViewCell.swift; sourceTree = "<group>"; };
+		14FD54312932167C00438CDB /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14103482292F68920081FB25 /* KeychainAccess in Frameworks */,
 				14E8FC15292B2DD2004487D0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +69,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1410346A292F45A30081FB25 /* Coordinators  */ = {
+			isa = PBXGroup;
+			children = (
+				1410346B292F479A0081FB25 /* AppCoordinator.swift */,
+				1410346F292F48600081FB25 /* MainCoordinator.swift */,
+				1410346D292F47AF0081FB25 /* Coordinator.swift */,
+			);
+			path = "Coordinators ";
+			sourceTree = "<group>";
+		};
+		1410347D292F67590081FB25 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1410347B292F674E0081FB25 /* LoginViewController.swift */,
+				14FD54312932167C00438CDB /* ChangePasswordViewController.swift */,
+				14103473292F4A460081FB25 /* LoginCoordinator.swift */,
+				14FD542929306DB200438CDB /* KeychainService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1410347E292F67630081FB25 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				14103479292F671F0081FB25 /* SettingsViewController.swift */,
+				14FD542D293106F600438CDB /* SortTableViewCell.swift */,
+				14FD542F2931070A00438CDB /* SizeTableViewCell.swift */,
+				14FD542B2930BA0300438CDB /* SettingsCoordinator.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		1410347F292F67730081FB25 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				14E8FC01292894A5004487D0 /* FileController.swift */,
+				14103471292F49660081FB25 /* FileManagerCoordinator.swift */,
+				14103463292B6D660081FB25 /* ImagePicker.swift */,
+				14103461292B5F8C0081FB25 /* TextPicker.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
 		14E8FBF1292894A5004487D0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +131,13 @@
 		14E8FBFC292894A5004487D0 /* PhotoFileManager */ = {
 			isa = PBXGroup;
 			children = (
+				1410347F292F67730081FB25 /* FileManager */,
+				1410347D292F67590081FB25 /* Login */,
 				14E8FBFD292894A5004487D0 /* AppDelegate.swift */,
 				14E8FBFF292894A5004487D0 /* SceneDelegate.swift */,
-				14E8FC01292894A5004487D0 /* FileController.swift */,
 				14E8FC112928953D004487D0 /* FileManagerService.swift */,
-				14103461292B5F8C0081FB25 /* TextPicker.swift */,
-				14103463292B6D660081FB25 /* ImagePicker.swift */,
+				1410347E292F67630081FB25 /* Settings */,
+				1410346A292F45A30081FB25 /* Coordinators  */,
 				14E8FC06292894A6004487D0 /* Assets.xcassets */,
 				14E8FC08292894A6004487D0 /* LaunchScreen.storyboard */,
 				14E8FC0B292894A6004487D0 /* Info.plist */,
@@ -93,6 +163,7 @@
 			name = PhotoFileManager;
 			packageProductDependencies = (
 				14E8FC14292B2DD2004487D0 /* SnapKit */,
+				14103481292F68920081FB25 /* KeychainAccess */,
 			);
 			productName = PhotoFileManager;
 			productReference = 14E8FBFA292894A5004487D0 /* PhotoFileManager.app */;
@@ -124,6 +195,7 @@
 			mainGroup = 14E8FBF1292894A5004487D0;
 			packageReferences = (
 				14E8FC13292B2DD2004487D0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				14103480292F68920081FB25 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 14E8FBFB292894A5004487D0 /* Products */;
 			projectDirPath = "";
@@ -151,12 +223,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14103472292F49660081FB25 /* FileManagerCoordinator.swift in Sources */,
+				1410346E292F47AF0081FB25 /* Coordinator.swift in Sources */,
 				14E8FC02292894A5004487D0 /* FileController.swift in Sources */,
+				14FD54322932167C00438CDB /* ChangePasswordViewController.swift in Sources */,
 				14103462292B5F8C0081FB25 /* TextPicker.swift in Sources */,
+				14103474292F4A460081FB25 /* LoginCoordinator.swift in Sources */,
 				14E8FBFE292894A5004487D0 /* AppDelegate.swift in Sources */,
 				14103464292B6D660081FB25 /* ImagePicker.swift in Sources */,
+				14FD542A29306DB200438CDB /* KeychainService.swift in Sources */,
 				14E8FC00292894A5004487D0 /* SceneDelegate.swift in Sources */,
+				14FD54302931070A00438CDB /* SizeTableViewCell.swift in Sources */,
 				14E8FC122928953D004487D0 /* FileManagerService.swift in Sources */,
+				14FD542C2930BA0300438CDB /* SettingsCoordinator.swift in Sources */,
+				1410347A292F671F0081FB25 /* SettingsViewController.swift in Sources */,
+				14103470292F48600081FB25 /* MainCoordinator.swift in Sources */,
+				14FD542E293106F600438CDB /* SortTableViewCell.swift in Sources */,
+				1410347C292F674E0081FB25 /* LoginViewController.swift in Sources */,
+				1410346C292F479A0081FB25 /* AppCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +385,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +412,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -364,6 +450,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		14103480292F68920081FB25 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		14E8FC13292B2DD2004487D0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -375,6 +469,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		14103481292F68920081FB25 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14103480292F68920081FB25 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
 		14E8FC14292B2DD2004487D0 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 14E8FC13292B2DD2004487D0 /* XCRemoteSwiftPackageReference "SnapKit" */;
